@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PruebaVol</string>
+    <string name="tv_title">Listado de TODOs (API JSONPlaceholder)</string>
+    <string name="loading">Cargando...</string>
+    <string name="error_message">Ocurrió un error al cargar los datos</string>
+</resources>
