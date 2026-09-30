@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Poke Navigation</string>
+
+    <!-- Menú inferior -->
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_informacion">Información</string>
+
+    <!-- Inicio -->
+    <string name="titulo_pokemon">Pokémon</string>
+    <string name="cargando">Cargando información…</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="imagen_pokemon">Imagen del Pokémon</string>
+    <string name="seleccion_pokemon">Seleccionó: %1$s</string>
+    <string name="error_http">No fue posible obtener los Pokémon. Código HTTP: %1$d</string>
+    <string name="error_conexion">Error de conexión. Verifique internet e intente nuevamente.</string>
+
+    <!-- Detalle (actividad propuesta) -->
+    <string name="titulo_detalle">Detalle del Pokémon</string>
+    <string name="volver">Volver</string>
+    <string name="imagen_oficial">Imagen oficial del Pokémon</string>
+    <string name="etiqueta_altura">Altura</string>
+    <string name="etiqueta_peso">Peso</string>
+    <string name="etiqueta_experiencia">Experiencia base</string>
+    <string name="formato_numero">#%1$03d</string>
+    <string name="formato_altura">%1$.1f m</string>
+    <string name="formato_peso">%1$.1f kg</string>
+    <string name="formato_experiencia">%1$d XP</string>
+    <string name="sin_dato">Sin dato</string>
+    <string name="guardar_favorito">Guardar en favoritos</string>
+    <string name="quitar_favorito">Quitar de favoritos</string>
+    <string name="favorito_agregado">%1$s se guardó en Favoritos</string>
+    <string name="favorito_eliminado">%1$s se quitó de Favoritos</string>
+    <string name="error_detalle_http">No fue posible obtener el detalle. Código HTTP: %1$d</string>
+
+    <!-- Favoritos -->
+    <string name="titulo_favoritos">Pokémon favoritos</string>
+    <string name="favoritos_vacio">Aún no tienes favoritos.\nAbre un Pokémon desde Inicio y toca «Guardar en favoritos».</string>
+
+    <!-- Información -->
+    <string name="titulo_info">Información de Pokémon</string>
+    <string name="info_descripcion">Poke Navigation consulta la PokéAPI, una API pública y gratuita, usando Retrofit. Muestra los datos en tarjetas y se navega con el menú inferior.</string>
+    <string name="info_subtitulo_uso">Cómo se usa</string>
+    <string name="info_uso">Inicio: toca un Pokémon para ver su detalle.\n\nDetalle: imagen oficial, número, tipos, altura, peso y experiencia base. El botón de abajo lo guarda en Favoritos o lo quita.\n\nFavoritos: los Pokémon que guardaste. Se conservan aunque cierres la app.</string>
+    <string name="info_subtitulo_tecnologias">Con qué está hecha</string>
+    <string name="info_tecnologias">Java y XML, Retrofit con Gson y OkHttp, RecyclerView y CardView, Material Components (Bottom Navigation y Chips), Glide para las imágenes y SharedPreferences para los favoritos.</string>
+    <string name="info_subtitulo_fuente">Fuente de los datos</string>
+    <string name="info_fuente">https://pokeapi.co</string>
+
+    <!-- Texto que crea Android Studio al generar un Fragment (Blank). Se puede dejar. -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

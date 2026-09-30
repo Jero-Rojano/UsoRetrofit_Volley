@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colores de los tipos de Pokémon. Son tonos oscuros para que el texto blanco se lea bien. -->
+<resources>
+    <color name="tipo_normal">#7D7C5B</color>
+    <color name="tipo_fuego">#D35400</color>
+    <color name="tipo_agua">#2F6BD6</color>
+    <color name="tipo_electrico">#A67C00</color>
+    <color name="tipo_planta">#3F8F2F</color>
+    <color name="tipo_hielo">#2A8C88</color>
+    <color name="tipo_lucha">#C22E28</color>
+    <color name="tipo_veneno">#A33EA1</color>
+    <color name="tipo_tierra">#A9772B</color>
+    <color name="tipo_volador">#7A5FD1</color>
+    <color name="tipo_psiquico">#E0356F</color>
+    <color name="tipo_bicho">#7A8C12</color>
+    <color name="tipo_roca">#8A7A28</color>
+    <color name="tipo_fantasma">#735797</color>
+    <color name="tipo_dragon">#6F35FC</color>
+    <color name="tipo_siniestro">#705746</color>
+    <color name="tipo_acero">#6E7E91</color>
+    <color name="tipo_hada">#C45A92</color>
+</resources>
